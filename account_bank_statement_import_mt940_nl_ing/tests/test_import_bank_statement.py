@@ -20,7 +20,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-from openerp.addons.account_bank_statement_import.tests import (
+from odoo.addons.account_bank_statement_import.tests import (
     TestStatementFile)
 
 

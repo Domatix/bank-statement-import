@@ -17,7 +17,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-from openerp import _, SUPERUSER_ID, exceptions
+from odoo import _, SUPERUSER_ID, exceptions
 
 
 def post_init_hook(cr, pool):

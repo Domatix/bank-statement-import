@@ -19,7 +19,7 @@
 #
 ##############################################################################
 import logging
-from openerp import models
+from odoo import models
 from .mt940 import MT940Parser as Parser
 
 

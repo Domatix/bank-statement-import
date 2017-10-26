@@ -17,8 +17,8 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-from openerp.tests.common import TransactionCase
-from openerp import exceptions
+from odoo.tests.common import TransactionCase
+from odoo import exceptions
 from ..hooks import post_init_hook
 
 

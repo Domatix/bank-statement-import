@@ -20,7 +20,7 @@
 ##############################################################################
 import re
 from string import printable
-from openerp.addons.account_bank_statement_import_mt940_base.mt940 import (
+from odoo.addons.account_bank_statement_import_mt940_base.mt940 import (
     MT940, str2amount, get_subfields, handle_common_subfields)
 
 
